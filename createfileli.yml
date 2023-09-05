@@ -3,8 +3,8 @@
    tasks:
    - name: Clone a github repository
      git:
-       repo: {{ repourl }}
-       dest: {{ clondest }}
+       repo: https://github.com/yogitachourey123/linuxdemo2.git
+       dest: /home/hcligt/direc
        clone: yes
        update: yes
    - name: Run shell script
