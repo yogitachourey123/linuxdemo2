@@ -1,0 +1,11 @@
+---
+ - hosts: all
+   tasks:
+   - name: Clone a github repository
+     git:
+       repo: {{ repourl }}
+       dest: /home/hcligt/dir-1
+       clone: yes
+       update: yes
+   - name: Run shell script
+     shell: "sh {{ dir }}/{{ file.sh }} "
