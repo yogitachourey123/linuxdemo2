@@ -3,4 +3,5 @@ function my() {
   local dir="$2"
   touch $dir/$filename
 }
+my "$@"
 
