@@ -8,4 +8,4 @@
        clone: yes
        update: yes
    - name: Run shell script
-     shell: sh {{ dir }} {{ shfile }} {{ filename }}
+     shell: bash {{ shfile }} {{ dir }} {{ filename }}
