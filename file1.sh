@@ -1,5 +1,6 @@
 function myfun() {
-local fdir="$1"
-sudo touch $fdir/f1.txt
+local dir="$1"
+local filename="$2"
+sudo touch $dir/$filename
 }
-myfun $1
+myfun $1 $2
