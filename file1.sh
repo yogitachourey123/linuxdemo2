@@ -1,1 +1,1 @@
-sudo touch $dir/f1.txt
+sudo touch $fdir/f1.txt
